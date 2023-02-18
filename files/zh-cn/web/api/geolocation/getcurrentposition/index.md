@@ -16,9 +16,9 @@ navigator.geolocation.getCurrentPosition(success, error, options)
 ### 参数
 
 - _success_
-  - : 成功得到位置信息时的回调函数，使用{{domxref("Position")}} 对象作为唯一的参数。
+  - : 成功得到位置信息时的回调函数，使用{{domxref("GeolocationPosition")}} 对象作为唯一的参数。
 - _error_ {{optional_inline}}
-  - : 获取位置信息失败时的回调函数，使用 {{domxref("PositionError")}} 对象作为唯一的参数，这是一个可选项。
+  - : 获取位置信息失败时的回调函数，使用 {{domxref("GeolocationPositionError")}} 对象作为唯一的参数，这是一个可选项。
 - _options_ {{optional_inline}}
   - : 一个可选的{{domxref("PositionOptions")}} 对象。
 
